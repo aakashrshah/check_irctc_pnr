@@ -26,3 +26,5 @@ for row in table.findAll("tr"):
     for item in cells:
         print str(item).strip('<td>,</td>, ')
     print("\n")
+
+
